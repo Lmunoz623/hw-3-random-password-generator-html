@@ -23,7 +23,6 @@ function writePassword() {
   var passwordLength = prompt("Choose a password length. Enter a number between 8 - 128.");
   if(passwordLength < 8 || passwordLength > 128) {
     alert("Please enter a valid number.");
-    prompt("Choose a password length. Enter a number between 8 - 128.");
     return;
   } else {
     alert("Your password will consist of " + passwordLength + " characters.");
